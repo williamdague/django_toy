@@ -17,4 +17,4 @@ def deploy():
         # With both
         local('python manage.py migrate toy_app')
         local('python manage.py test toy_app')
-        local('/my/command/to/restart/webserver')
+#        local('/my/command/to/restart/webserver')
